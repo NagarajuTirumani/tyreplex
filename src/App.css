@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  max-width: 1320px;
+  margin: auto;
+}
+.user_reviews {
+  overflow: scroll;
+}
+
+.tyre_info_img {
+  position: relative;
+  right: -40%;
+  bottom: -10%;
+}
+.filter_by {
+  width: 100%;
+}
+.nav_menu {
+  display: none;
+}
+
+.below-container {
+  max-width: 1320px;
+  margin: auto;
+}
+.shop_info_rating {
+  font-size: small;
+  background-color: rgb(17, 183, 17);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.link-text:hover {
+  color: #1b7ee0 !important;
+}
+.card-hover {
+  transition: transform 0.3s ease-in;
+}
+
+.card-hover:hover {
+  transform: scale(1.1);
+}
+
+.link-text {
+  margin-bottom: 6px;
+}
+
+.image-section {
+  transform: scale(1.5);
+}
+.user_reviews::-webkit-scrollbar {
+  display: none;
+}
+.deals_in_img {
+  width: 80%;
+  height: 50%;
+  text-align: center;
+}
+.user_reviews_info {
+  margin-right: 10px;
+}
+.askQuestions {
+  background-color: #ffeaaa;
+}
+.askQuestions_input {
+  color: #130f26;
+  border-radius: 21px;
+  box-shadow: 0px 1px 1px #ffca28;
+  border: 1px solid #ffca28;
+  outline: 0px;
+}
+.user_reviews_details {
+  font-size: 0.9rem;
+  overflow: hidden;
+  height: 60px;
+}
+.deals_in_company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+}
+
+.service_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tyre_info {
+  overflow: hidden;
+}
+.tyre_info_detail {
+  font-size: small;
+}
+.img-fluid {
+  height: 50px;
+}
+.menu_items {
+  display: none;
+}
+.header-image {
+  left: 64px;
+}
+@media screen and (max-width: 850px) {
+  .nav {
+    display: none;
+  }
+  .nav_menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header-image {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .tyre_info_shop_details {
+    flex-direction: column-reverse;
+  }
+  .tyre_info_shop_name {
+    flex-direction: column-reverse;
+  }
+  .tyre_info_verify {
+    position: relative;
+    top: -30px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .below-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .below-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
